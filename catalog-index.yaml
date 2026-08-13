@@ -1,0 +1,32 @@
+# Parasol Insurance Catalog Index
+#
+# Groups, Domains, and Systems with TechDocs annotations.
+# Components and APIs vendored from benwilcock/backstage-catalogs.
+#
+# Source: benwilcock/backstage-catalogs @ dbc1ba9e7589b391cb2c292b964f4a729efb0489
+
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: parasol-catalog-index
+  title: Parasol Insurance Internal Catalog
+  description: |
+    Parasol Insurance software catalog — Groups, Domains, Systems,
+    Components, and APIs.
+spec:
+  targets:
+    # Foundations (Groups, Domains, Systems) with TechDocs annotations
+    - ./parasol-foundations.yaml
+
+    # Components
+    - ./components/parasol-catalog-claims.yaml
+    - ./components/parasol-catalog-underwriting.yaml
+    - ./components/parasol-catalog-policy.yaml
+    - ./components/parasol-catalog-personal-lines.yaml
+    - ./components/parasol-catalog-commercial-specialty.yaml
+    - ./components/parasol-catalog-life.yaml
+    - ./components/parasol-catalog-digital.yaml
+    - ./components/parasol-catalog-data-platform.yaml
+
+    # APIs
+    - ./components/parasol-catalog-apis.yaml
