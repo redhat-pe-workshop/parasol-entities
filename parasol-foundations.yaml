@@ -335,6 +335,12 @@ metadata:
     Integrates with external payment acquirers and banking partners.
   annotations:
     backstage.io/techdocs-ref: dir:./techdocs/domains/billing-payments
+  # Tags are essential to helping intelligent assistant (Lightspeed for Developer Hub)
+  # find entities related to the terms in natural language queries
+  tags:
+    - billing
+    - payments
+    - payment
 spec:
   owner: group:default/billing-payments-engineering
 
